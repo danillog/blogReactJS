@@ -27,7 +27,7 @@ class Dashboard extends Component{
 			<div id="dashboard">
 				<div className="user-info">
 					<h1> { this.state.nome } </h1>
-					<Link tp='dashboard/new' > Novo Post </Link>
+					<Link to='dashboard/new' > Novo Post </Link>
 				</div>
 				<p> Logado com: {firebase.getCurrent()} </p>
 			</div>
