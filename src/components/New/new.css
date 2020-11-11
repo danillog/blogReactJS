@@ -2,6 +2,8 @@ div#bodyPost{
   width: 100%;
   max-width: 850px;
   margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
 }
 header#new a{
     text-decoration: none;
@@ -18,6 +20,11 @@ header#new a:hover{
   background-color: #dfdfdf;
   color: rgb(61, 61, 61);
 }
+
+div#bodyPost span{
+  font-size: large;
+  text-align: center;
+}
 form#post{
   background-color: #fff;
   display: flex;
@@ -26,6 +33,7 @@ form#post{
   margin-top:30px;
   padding: 30px
 }
+
 form#post input{
   margin-bottom:  15px;
   height:40px;
@@ -33,6 +41,13 @@ form#post input{
   border: 1px solid #b2b2b2;
   padding: 0 20px;
   font-size: 14px;
+}
+form#post #fileImage{
+  padding: 0;
+}
+form#post progress{
+  height: 2em;
+  width: 100%;
 }
 form#post textarea{
   margin-bottom: 15px;
