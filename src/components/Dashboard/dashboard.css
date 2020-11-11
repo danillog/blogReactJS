@@ -1,0 +1,34 @@
+#dashboard{
+  width: 100%;
+  max-width: 70%;
+  margin: 30px auto 0;
+  padding:  30px;
+  background-color: #fff;
+  display: flex;
+  box-shadow: #00000082 10px 10px 17px;
+  flex-direction: column;
+  margin-top:30px;
+}
+.user-info{
+  margin-bottom: 20px;
+}
+.user-info h1{
+  margin-bottom: 10px;
+}
+
+.user-info a{
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 1s;
+}
+.user-info a:hover{
+  transition: 1s;
+  background-color: #dfdfdf;
+  color: rgb(61, 61, 61);
+  border: 1px solid black;
+}
